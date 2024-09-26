@@ -1,0 +1,329 @@
+sykim@myserver01:~$ ls /bin
+'['                                   ex                      lzegrep                            reset                   systemctl
+ aa-enabled                           expand                  lzfgrep                            resizecons              systemd
+ aa-exec                              expiry                  lzgrep                             resizepart              systemd-ac-power
+ aa-features-abi                      expr                    lzless                             resolvectl              systemd-analyze
+ acpidbg                              factor                  lzma                               rev                     systemd-ask-password
+ add-apt-repository                   faillog                 lzmainfo                           rgrep                   systemd-cat
+ addpart                              fallocate               lzmore                             rm                      systemd-cgls
+ apport-bug                           false                   mailmail3                          rmdir                   systemd-cgtop
+ apport-cli                           fgconsole               man                                rnano                   systemd-confext
+ apport-collect                       fgrep                   mandb                              routel                  systemd-creds
+ apport-unpack                        file                    manifest                           rpcgen                  systemd-cryptenroll
+ appstreamcli                         finalrd                 manpath                            rrsync                  systemd-cryptsetup
+ apropos                              find                    man-recode                         rsync                   systemd-delta
+ apt                                  findmnt                 mapscrn                            rsync-ssl               systemd-detect-virt
+ apt-add-repository                   flock                   markdown-it                        rtla                    systemd-escape
+ apt-cache                            fmt                     mawk                               rtstat                  systemd-firstboot
+ apt-cdrom                            fold                    mbimcli                            runcon                  systemd-hwdb
+ apt-config                           free                    mbim-network                       run-one                 systemd-id128
+ apt-extracttemplates                 ftp                     mcookie                            run-one-constantly      systemd-inhibit
+ apt-ftparchive                       fuser                   md5sum                             run-one-until-failure   systemd-machine-id-setup
+ apt-get                              fusermount              md5sum.textutils                   run-one-until-success   systemd-mount
+ apt-key                              fusermount3             mdig                               run-parts               systemd-notify
+ apt-mark                             fwupdmgr                memhog                             run-this-one            systemd-path
+ apt-sortpkgs                         fwupdtool               memusage                           rview                   systemd-repart
+ arch                                 gapplication            memusagestat                       rvim                    systemd-run
+ automat-visualize3                   gawk                    mesg                               sadf                    systemd-socket-activate
+ awk                                  gawkbug                 migratepages                       sar                     systemd-stdio-bridge
+ b2sum                                gdbus                   migrate-pubring-from-classic-gpg   sar.sysstat             systemd-sysext
+ base32                               gencat                  migspeed                           savelog                 systemd-sysusers
+ base64                               geqn                    mkdir                              sbattach                systemd-tmpfiles
+ basename                             getconf                 mkfifo                             sbkeysync               systemd-tty-ask-password-agent
+ basenc                               getent                  mk_modmap                          sbsiglist               systemd-umount
+ bash                                 getkeycodes             mknod                              sbsign                  tabs
+ bashbug                              getopt                  mksquashfs                         sbvarsign               tac
+ bc                                   gettext                 mktemp                             sbverify                tail
+ boltctl                              gettext.sh              mmcli                              scalar                  tapestat
+ bpftrace                             ginstall-info           more                               scandeps                tar
+ bpftrace-aotrt                       gio                     mount                              scp                     taskset
+ btrfs                                gio-querymodules        mountpoint                         screen                  tbl
+ btrfsck                              git                     mpstat                             screendump              tclsh
+ btrfs-convert                        git-receive-pack        mt                                 script                  tclsh8.6
+ btrfs-find-root                      git-shell               mt-gnu                             scriptlive              tcpdump
+ btrfs-image                          git-upload-archive      mtr                                scriptreplay            tee
+ btrfs-map-logical                    git-upload-pack         mtrace                             scsi_logging_level      telnet
+ btrfs-select-super                   glib-compile-schemas    mtr-packet                         scsi_mandat             tempfile
+ btrfstune                            gpasswd                 mv                                 scsi_readcap            test
+ busctl                               gpg                     namei                              scsi_ready              tic
+ busybox                              gpg-agent               nano                               scsi_satl               time
+ byobu                                gpgconf                 nawk                               scsi_start              timedatectl
+ byobu-config                         gpg-connect-agent       nc                                 scsi_stop               timeout
+ byobu-ctrl-a                         gpgparsemail            nc.openbsd                         scsi_temperature        tkconch3
+ byobu-disable                        gpgsm                   neqn                               sdiff                   tload
+ byobu-disable-prompt                 gpgsplit                netaddr                            sed                     tmux
+ byobu-enable                         gpgtar                  netcat                             select-editor           tnftp
+ byobu-enable-prompt                  gpgv                    netstat                            sensible-browser        toe
+ byobu-export                         gpg-wks-client          networkctl                         sensible-editor         top
+ byobu-janitor                        gpic                    networkd-dispatcher                sensible-pager          touch
+ byobu-keybindings                    gpu-manager             newgrp                             sensible-terminal       tput
+ byobu-launch                         grep                    NF                                 seq                     tr
+ byobu-launcher                       gresource               ngettext                           setarch                 trace-cmd
+ byobu-launcher-install               groff                   nice                               setfont                 tracepath
+ byobu-launcher-uninstall             grog                    nisdomainname                      setkeycodes             trial3
+ byobu-layout                         grops                   nl                                 setleds                 troff
+ byobu-prompt                         grotty                  nohup                              setlogcons              true
+ byobu-quiet                          groups                  nproc                              setmetamode             truncate
+ byobu-reconnect-sockets              growpart                nroff                              setpci                  tset
+ byobu-screen                         grub-editenv            nsenter                            setpriv                 tsort
+ byobu-select-backend                 grub-file               nslookup                           setsid                  tty
+ byobu-select-profile                 grub-fstest             nstat                              setterm                 turbostat
+ byobu-select-session                 grub-glue-efi           nsupdate                           setupcon                twist3
+ byobu-shell                          grub-kbdcomp            ntfs-3g                            sftp                    twistd3
+ byobu-silent                         grub-menulst2cfg        ntfs-3g.probe                      sg                      tzselect
+ byobu-status                         grub-mkfont             ntfscat                            sg_bg_ctl               ua
+ byobu-status-detail                  grub-mkimage            ntfscluster                        sg_compare_and_write    ubuntu-advantage
+ byobu-tmux                           grub-mklayout           ntfscmp                            sg_copy_results         ubuntu-bug
+ byobu-ugraph                         grub-mknetdir           ntfsdecrypt                        sg_dd                   ubuntu-core-launcher
+ byobu-ulevel                         grub-mkpasswd-pbkdf2    ntfsfallocate                      sg_decode_sense         ubuntu-distro-info
+ captoinfo                            grub-mkrelpath          ntfsfix                            sg_emc_trespass         ubuntu-drivers
+ cat                                  grub-mkrescue           ntfsinfo                           sg_format               ubuntu-security-status
+ catman                               grub-mkstandalone       ntfsls                             sg_get_config           ucf
+ cftp3                                grub-mount              ntfsmove                           sg_get_elem_status      ucfq
+ chage                                grub-ntldr-img          ntfsrecover                        sg_get_lba_status       ucfr
+ chardet                              grub-render-label       ntfssecaudit                       sg_ident                uclampset
+ chardetect                           grub-script-check       ntfstruncate                       sginfo                  udevadm
+ chattr                               grub-syslinux2cfg       ntfsusermap                        sg_inq                  udisksctl
+ chcon                                gsettings               ntfswipe                           sg_logs                 ul
+ chfn                                 gtbl                    numactl                            sg_luns                 umount
+ chgrp                                gunzip                  numastat                           sg_map                  uname
+ chmod                                gzexe                   numfmt                             sg_map26                unattended-upgrade
+ choom                                gzip                    nvidia-detector                    sgm_dd                  unattended-upgrades
+ chown                                h2ph                    od                                 sg_modes                uncompress
+ chrt                                 h2xs                    oem-getlogs                        sg_opcodes              unexpand
+ chsh                                 hardlink                on_ac_power                        sgp_dd                  unicode_start
+ chvt                                 hd                      openssl                            sg_persist              unicode_stop
+ cifsiostat                           head                    openvt                             sg_prevent              uniq
+ ckbcomp                              helpztags               os-prober                          sg_raw                  unlink
+ ckeygen3                             hexdump                 pager                              sg_rbuf                 unlzma
+ cksum                                host                    partx                              sg_rdac                 unminimize
+ clear                                hostid                  passwd                             sg_read                 unmkinitramfs
+ clear_console                        hostname                paste                              sg_read_attr            unshare
+ cloud-id                             hostnamectl             pastebinit                         sg_read_block_limits    unsquashfs
+ cloud-init                           htop                    patch                              sg_read_buffer          unxz
+ cloud-init-per                       hwe-support-status      pathchk                            sg_readcap              unzstd
+ cmp                                  i386                    pbget                              sg_read_long            update-alternatives
+ codepage                             iconv                   pbput                              sg_reassign             update-mime-database
+ col                                  id                      pbputs                             sg_referrals            upower
+ col1                                 inetutils-telnet        pdb3                               sg_rep_pip              uptime
+ col2                                 info                    pdb3.12                            sg_rep_zones            usb-devices
+ col3                                 infobrowser             peekfd                             sg_requests             usbhid-dump
+ col4                                 infocmp                 perf                               sg_reset                usbip
+ col5                                 infotocap               perl                               sg_reset_wp             usbipd
+ col6                                 install                 perl5.38.2                         sg_rmsn                 usbreset
+ col7                                 install-info            perl5.38-x86_64-linux-gnu          sg_rtpg                 users
+ col8                                 instmodsh               perlbug                            sg_safte                utmpdump
+ col9                                 ionice                  perldoc                            sg_sanitize             uuidgen
+ colcrt                               iostat                  perlivp                            sg_sat_identify         uuidparse
+ colrm                                ip                      perlthanks                         sg_sat_phy_event        varlinkctl
+ column                               ipcmk                   pgrep                              sg_sat_read_gplog       vcs-run
+ comm                                 ipcrm                   pic                                sg_sat_set_features     vdir
+ conch3                               ipcs                    pico                               sg_scan                 VGAuthService
+ corelist                             iptables-xml            piconv                             sg_seek                 vi
+ cp                                   ischroot                pidof                              sg_senddiag             view
+ cpan                                 iscsiadm                pidstat                            sg_ses                  vigpg
+ cpan5.38-x86_64-linux-gnu            join                    pidwait                            sg_ses_microcode        vim
+ cpio                                 journalctl              pinentry                           sg_start                vim.basic
+ cpupower                             jq                      pinentry-curses                    sg_stpg                 vimdiff
+ c_rehash                             jsondiff                ping                               sg_stream_ctl           vim.tiny
+ crontab                              jsonpatch               ping4                              sg_sync                 vimtutor
+ csplit                               json-patch-jsondiff     ping6                              sg_test_rwbuf           vmhgfs-fuse
+ ctail                                jsonpointer             pinky                              sg_timestamp            vmstat
+ ctstat                               json_pp                 pkaction                           sg_turs                 vm-support
+ curl                                 jsonschema              pkcheck                            sg_unmap                vmtoolsd
+ cut                                  kbdinfo                 pkcon                              sg_verify               vmware-alias-import
+ cvtsudoers                           kbd_mode                pkill                              sg_vpd                  vmware-checkvm
+ dash                                 kbxutil                 pkmon                              sg_write_buffer         vmware-hgfsclient
+ date                                 keep-one-running        pkttyagent                         sg_write_long           vmware-namespace-cmd
+ dbus-cleanup-sockets                 kernel-install          pl2pm                              sg_write_same           vmware-rpctool
+ dbus-daemon                          kill                    pldd                               sg_write_verify         vmware-toolbox-cmd
+ dbus-monitor                         killall                 plymouth                           sg_write_x              vmware-vgauth-cmd
+ dbus-run-session                     kmod                    pmap                               sg_wr_mode              vmware-vmblock-fuse
+ dbus-send                            kmodsign                pod2html                           sg_xcopy                vmware-xferlogs
+ dbus-update-activation-environment   landscape-sysinfo       pod2man                            sg_zone                 w
+ dbus-uuidgen                         last                    pod2text                           sh                      wall
+ dbxtool                              lastb                   pod2usage                          sha1sum                 watch
+ dd                                   lastlog                 podchecker                         sha224sum               watchgnupg
+ deallocvt                            lcf                     pollinate                          sha256sum               wc
+ debconf                              ldd                     pr                                 sha384sum               wdctl
+ debconf-apt-progress                 ld.so                   preconv                            sha512sum               wget
+ debconf-communicate                  less                    printenv                           shasum                  whatis
+ debconf-copydb                       lessecho                printf                             showconsolefont         whereis
+ debconf-escape                       lessfile                prlimit                            showkey                 which
+ debconf-set-selections               lesskey                 pro                                shred                   which.debianutils
+ debconf-show                         lesspipe                prove                              shuf                    whiptail
+ debian-distro-info                   lexgrog                 prtstat                            skill                   who
+ deb-systemd-helper                   libnetcfg               ps                                 slabtop                 whoami
+ deb-systemd-invoke                   link                    psfaddtable                        sleep                   wifi-status
+ delpart                              linux32                 psfgettable                        slogin                  write
+ delv                                 linux64                 psfstriptable                      snap                    x86_64
+ df                                   linux-boot-prober       psfxtable                          snapctl                 x86_energy_perf_policy
+ dh_bash-completion                   linux-check-removal     pslog                              snapfuse                xargs
+ dh_installxmlcatalogs                linux-update-symlinks   pstree                             snice                   xauth
+ diff                                 linux-version           pstree.x11                         soelim                  xdg-user-dir
+ diff3                                ln                      ptar                               sort                    xdg-user-dirs-update
+ dig                                  lnstat                  ptardiff                           sos                     xsubpp
+ dir                                  loadkeys                ptargrep                           sos-collector           xxd
+ dircolors                            loadunimap              ptx                                sosreport               xz
+ dirmngr                              locale                  purge-old-kernels                  sotruss                 xzcat
+ dirmngr-client                       locale-check            pwd                                splain                  xzcmp
+ dirname                              localectl               pwdx                               split                   xzdiff
+ distro-info                          localedef               py3clean                           splitfont               xzegrep
+ dmesg                                logger                  py3compile                         sprof                   xzfgrep
+ dnsdomainname                        login                   py3versions                        sqfscat                 xzgrep
+ domainname                           loginctl                pybabel                            sqfstar                 xzless
+ do-release-upgrade                   logname                 pybabel-python3                    ss                      xzmore
+ dpkg                                 look                    pydoc3                             ssh                     yes
+ dpkg-deb                             lowntfs-3g              pydoc3.12                          ssh-add                 ypdomainname
+ dpkg-divert                          ls                      pygettext3                         ssh-agent               zcat
+ dpkg-maintscript-helper              lsattr                  pygettext3.12                      ssh-argv0               zcmp
+ dpkg-query                           lsblk                   pygmentize                         ssh-copy-id             zdiff
+ dpkg-realpath                        lsb_release             pyhtmlizer3                        ssh-import-id           zdump
+ dpkg-split                           lscpu                   pyserial-miniterm                  ssh-import-id-gh        zegrep
+ dpkg-statoverride                    lshw                    pyserial-ports                     ssh-import-id-lp        zfgrep
+ dpkg-trigger                         lsinitramfs             python3                            ssh-keygen              zforce
+ du                                   lsipc                   python3.12                         ssh-keyscan             zgrep
+ dumpkeys                             lslocks                 pzstd                              stat                    zipdetails
+ eatmydata                            lslogins                qmicli                             static-sh               zless
+ ec2metadata                          lsmem                   qmi-firmware-update                stdbuf                  zmore
+ echo                                 lsmod                   qmi-network                        strace                  znew
+ ed                                   lsns                    quirks-handler                     strace-log-merge        zstd
+ editor                               lsof                    rbash                              streamzip               zstdcat
+ egrep                                lspci                   rdma                               stty                    zstdgrep
+ eject                                lspgpot                 readlink                           su                      zstdless
+ enc2xs                               lspower                 realpath                           sudo                    zstdmt
+ encguess                             lsusb                   red                                sudoedit
+ env                                  lzcat                   rename.ul                          sudoreplay
+ envsubst                             lzcmp                   renice                             sum
+ eqn                                  lzdiff                  rescan-scsi-bus.sh                 sync
+sykim@myserver01:~$ ls /sbin
+aa-load                dosfslabel            ip6tables-legacy-restore     mklost+found           rtcwake              undump.bt
+aa-remove-unknown      dpkg-preconfigure     ip6tables-legacy-save        mkntfs                 rtmon                unix_chkpwd
+aa-status              dpkg-reconfigure      ip6tables-nft                mkswap                 rubycalls-bpfcc      unix_update
+aa-teardown            drsnoop-bpfcc         ip6tables-nft-restore        ModemManager           rubyflow-bpfcc       uobjnew
+accessdb               dumpe2fs              ip6tables-nft-save           modinfo                rubygc-bpfcc         update-ca-certificates
+addgnupghome           e2freefrag            ip6tables-restore            modprobe               rubyobjnew-bpfcc     update-catalog
+addgroup               e2fsck                ip6tables-restore-translate  mount.fuse             rubystat-bpfcc       update-grub
+add-shell              e2image               ip6tables-save               mount.fuse3            runlevel             update-grub2
+adduser                e2label               ip6tables-translate          mount.lowntfs-3g       runqlat-bpfcc        update-grub-gfxpayload
+agetty                 e2mmpstatus           ipmaddr                      mount.ntfs             runqlat.bt           update-ieee-data
+apparmor_parser        e2scrub               iptables                     mount.ntfs-3g          runqlen-bpfcc        update-info-dir
+apparmor_status        e2scrub_all           iptables-apply               mountsnoop-bpfcc       runqlen.bt           update-initramfs
+applygnupgdefaults     e2undo                iptables-legacy              mpathpersist           runqslower-bpfcc     update-locale
+argdist-bpfcc          e4crypt               iptables-legacy-restore      multipath              runuser              update-passwd
+arp                    e4defrag              iptables-legacy-save         multipathc             service              update-pciids
+arpd                   ebtables              iptables-nft                 multipathd             setcap               update-rc.d
+arptables              ebtables-nft          iptables-nft-restore         mysqld_qslower-bpfcc   setuids.bt           update-shells
+arptables-nft          ebtables-nft-restore  iptables-nft-save            nameif                 setvesablank         update-xmlcatalog
+arptables-nft-restore  ebtables-nft-save     iptables-restore             naptime.bt             setvtrgb             upgrade-from-grub-legacy
+arptables-nft-save     ebtables-restore      iptables-restore-translate   needrestart            sfdisk               usb_modeswitch
+arptables-restore      ebtables-save         iptables-save                netplan                sgdisk               usb_modeswitch_dispatcher
+arptables-save         ebtables-translate    iptables-translate           netqtop-bpfcc          shadowconfig         usbmuxd
+badblocks              era_check             iptunnel                     newusers               shmsnoop-bpfcc       useradd
+bashreadline-bpfcc     era_dump              iscsiadm                     nfnl_osf               shutdown             userdel
+bashreadline.bt        era_invalidate        iscsid                       nfsdist-bpfcc          slabratetop-bpfcc    usermod
+bcache-super-show      era_restore           iscsi_discovery              nfsslower-bpfcc        slattach             ustat
+bindsnoop-bpfcc        ethtool               iscsi-iname                  nft                    sofdsnoop-bpfcc      uthreads
+biolatency-bpfcc       execsnoop-bpfcc       iscsistart                   nodegc-bpfcc           softirqs-bpfcc       uuidd
+biolatency.bt          execsnoop.bt          isosize                      nodestat-bpfcc         solisten-bpfcc       validlocale
+biolatency-kp.bt       exitsnoop-bpfcc       iucode-tool                  nologin                sshd                 vcstime
+biolatpcts-bpfcc       ext4dist-bpfcc        iucode_tool                  ntfsclone              ssllatency.bt        vdpa
+biopattern-bpfcc       ext4slower-bpfcc      javacalls-bpfcc              ntfscp                 sslsniff-bpfcc       veritysetup
+biosdecode             faillock              javaflow-bpfcc               ntfslabel              sslsnoop.bt          vfscount-bpfcc
+biosnoop-bpfcc         fatlabel              javagc-bpfcc                 ntfsresize             stackcount-bpfcc     vfscount.bt
+biosnoop.bt            fdisk                 javaobjnew-bpfcc             ntfsundelete           start-stop-daemon    vfsstat-bpfcc
+biostacks.bt           filefrag              javastat-bpfcc               offcputime-bpfcc       statsnoop-bpfcc      vfsstat.bt
+biotop-bpfcc           filegone-bpfcc        javathreads-bpfcc            offwaketime-bpfcc      statsnoop.bt         vgcfgbackup
+bitesize-bpfcc         filelife-bpfcc        kbdrate                      on_ac_power            sudo_logsrvd         vgcfgrestore
+bitesize.bt            fileslower-bpfcc      killall5                     oomkill-bpfcc          sudo_sendlog         vgchange
+blkdeactivate          filetop-bpfcc         killsnoop-bpfcc              oomkill.bt             sulogin              vgck
+blkdiscard             findfs                killsnoop.bt                 opensnoop-bpfcc        swapin.bt            vgconvert
+blkid                  fixparts              klockstat-bpfcc              opensnoop.bt           swaplabel            vgcreate
+blkzone                fsadm                 kpartx                       overlayroot-chroot     swapoff              vgdisplay
+blockdev               fsck                  kvmexit-bpfcc                ownership              swapon               vgexport
+bpflist-bpfcc          fsck.btrfs            ldattach                     pam-auth-update        switch_root          vgextend
+bpftool                fsck.cramfs           ldconfig                     pam_extrausers_chkpwd  syncsnoop-bpfcc      vgimport
+bridge                 fsck.ext2             ldconfig.real                pam_extrausers_update  syncsnoop.bt         vgimportclone
+btrfsdist-bpfcc        fsck.ext3             llcstat-bpfcc                pam_getenv             syscount-bpfcc       vgmerge
+btrfsslower-bpfcc      fsck.ext4             loads.bt                     pam_namespace_helper   syscount.bt          vgmknodes
+cache_check            fsck.fat              locale-gen                   pam_timestamp_check    sysctl               vgreduce
+cache_dump             fsck.minix            logrotate                    parted                 tarcat               vgremove
+cache_metadata_size    fsck.msdos            logsave                      partprobe              tc                   vgrename
+cache_repair           fsck.vfat             losetup                      pdata_tools            tclcalls-bpfcc       vgs
+cache_restore          fsck.xfs              lsmod                        perlcalls-bpfcc        tclflow-bpfcc        vgscan
+cachestat-bpfcc        fsfreeze              luksformat                   perlflow-bpfcc         tclobjnew-bpfcc      vgsplit
+cachetop-bpfcc         fstab-decode          lvchange                     perlstat-bpfcc         tclstat-bpfcc        vigr
+cache_writeback        fstrim                lvconvert                    phpcalls-bpfcc         tcpaccept-bpfcc      vipw
+capable-bpfcc          funccount-bpfcc       lvcreate                     phpflow-bpfcc          tcpaccept.bt         virtiostat-bpfcc
+capable.bt             funcinterval-bpfcc    lvdisplay                    phpstat-bpfcc          tcpcong-bpfcc        visudo
+capsh                  funclatency-bpfcc     lvextend                     pidpersec-bpfcc        tcpconnect-bpfcc     vpddecode
+cfdisk                 funcslower-bpfcc      lvm                          pidpersec.bt           tcpconnect.bt        wakeuptime-bpfcc
+cgdisk                 gdisk                 lvmconfig                    pivot_root             tcpconnlat-bpfcc     wipefs
+chcpu                  genl                  lvmdiskscan                  plipconfig             tcpdrop-bpfcc        writeback.bt
+chgpasswd              getcap                lvmdump                      plymouthd              tcpdrop.bt           xfs_admin
+chmem                  gethostlatency-bpfcc  lvmpolld                     poweroff               tcplife-bpfcc        xfs_bmap
+chpasswd               gethostlatency.bt     lvmsadc                      ppchcalls-bpfcc        tcplife.bt           xfs_copy
+chroot                 getpcaps              lvmsar                       profile-bpfcc          tcpretrans-bpfcc     xfs_db
+cobjnew-bpfcc          getty                 lvreduce                     pvchange               tcpretrans.bt        xfsdist-bpfcc
+compactsnoop-bpfcc     groupadd              lvremove                     pvck                   tcprtt-bpfcc         xfsdist.bt
+cpgr                   groupdel              lvrename                     pvcreate               tcpstates-bpfcc      xfs_estimate
+cppw                   groupmems             lvresize                     pvdisplay              tcpsubnet-bpfcc      xfs_freeze
+cpudist-bpfcc          groupmod              lvs                          pvmove                 tcpsynbl-bpfcc       xfs_fsr
+cpuunclaimed-bpfcc     grpck                 lvscan                       pvremove               tcpsynbl.bt          xfs_growfs
+cpuwalk.bt             grpconv               lxc                          pvresize               tcptop-bpfcc         xfs_info
+criticalstat-bpfcc     grpunconv             lxd                          pvs                    tcptracer-bpfcc      xfs_io
+cron                   grub-bios-setup       make-bcache                  pvscan                 telinit              xfs_logprint
+cryptdisks_start       grub-install          mdadm                        pwck                   thermald             xfs_mdrestore
+cryptdisks_stop        grub-macbless         mdflush-bpfcc                pwconv                 thin_check           xfs_metadump
+cryptsetup             grub-mkconfig         mdflush.bt                   pwhistory_helper       thin_delta           xfs_mkfile
+ctrlaltdel             grub-mkdevicemap      mdmon                        pwunconv               thin_dump            xfs_ncheck
+dbslower-bpfcc         grub-probe            memleak-bpfcc                pythoncalls-bpfcc      thin_ls              xfs_quota
+dbstat-bpfcc           grub-reboot           mii-tool                     pythonflow-bpfcc       thin_metadata_size   xfs_repair
+dcb                    grub-set-default      mkdosfs                      pythongc-bpfcc         thin_repair          xfs_rtcp
+dcsnoop-bpfcc          halt                  mke2fs                       pythonstat-bpfcc       thin_restore         xfs_scrub
+dcsnoop.bt             hardirqs-bpfcc        mkfs                         rarp                   thin_rmap            xfs_scrub_all
+dcstat-bpfcc           hdparm                mkfs.bfs                     rdmaucma-bpfcc         thin_trim            xfsslower-bpfcc
+deadlock-bpfcc         iconvconfig           mkfs.btrfs                   readahead-bpfcc        threadsnoop-bpfcc    xfs_spaceman
+debugfs                ifconfig              mkfs.cramfs                  readprofile            threadsnoop.bt       xtables-legacy-multi
+delgroup               init                  mkfs.ext2                    reboot                 tipc                 xtables-monitor
+deluser                inject-bpfcc          mkfs.ext3                    remove-shell           tplist-bpfcc         xtables-nft-multi
+depmod                 insmod                mkfs.ext4                    reset-trace-bpfcc      trace-bpfcc          zerofree
+devlink                installkernel         mkfs.fat                     resize2fs              ttysnoop-bpfcc       zfsdist-bpfcc
+dhcpcd                 install-sgmlcatalog   mkfs.minix                   resolvconf             tune2fs              zfsslower-bpfcc
+dirtop-bpfcc           integritysetup        mkfs.msdos                   rmmod                  ucalls               zic
+dmeventd               invoke-rc.d           mkfs.ntfs                    rmt                    u-d-c-print-pci-ids  zramctl
+dmidecode              ip                    mkfs.vfat                    rmt-tar                uflow
+dmsetup                ip6tables             mkfs.xfs                     route                  ufw
+dmstats                ip6tables-apply       mkhomedir_helper             rsyslogd               ugc
+dosfsck                ip6tables-legacy      mkinitramfs                  rtacct                 umount.udisks2
+sykim@myserver01:~$ ls /etc
+adduser.conf            cryptsetup-initramfs  gshadow-         libnl-3         nanorc               profile.d      shadow-            udev
+alternatives            crypttab              gss              locale.alias    needrestart          protocols      shells             udisks2
+apparmor                dbus-1                hdparm.conf      locale.conf     netconfig            python3        skel               ufw
+apparmor.d              debconf.conf          host.conf        locale.gen      netplan              python3.12     sos                update-manager
+apport                  debian_version        hostname         localtime       network              rc0.d          ssh                update-motd.d
+apt                     default               hosts            logcheck        networkd-dispatcher  rc1.d          ssl                update-notifier
+bash.bashrc             deluser.conf          hosts.allow      login.defs      networks             rc2.d          subgid             UPower
+bash_completion         depmod.d              hosts.deny       logrotate.conf  newt                 rc3.d          subgid-            usb_modeswitch.conf
+bash_completion.d       dhcp                  init.d           logrotate.d     nftables.conf        rc4.d          subuid             usb_modeswitch.d
+bindresvport.blacklist  dhcpcd.conf           initramfs-tools  lsb-release     nsswitch.conf        rc5.d          subuid-            vconsole.conf
+binfmt.d                dpkg                  inputrc          lvm             opt                  rc6.d          sudo.conf          vim
+byobu                   e2scrub.conf          iproute2         machine-id      os-release           rcS.d          sudoers            vmware-tools
+ca-certificates         environment           iscsi            magic           overlayroot.conf     resolv.conf    sudoers.d          vtrgb
+ca-certificates.conf    ethertypes            issue            magic.mime      PackageKit           rmt            sudo_logsrvd.conf  wgetrc
+cloud                   fonts                 issue.net        manpath.config  pam.conf             rpc            supercat           X11
+console-setup           fstab                 kernel           mdadm           pam.d                rsyslog.conf   sysctl.conf        xattr.conf
+credstore               fuse.conf             landscape        mime.types      passwd               rsyslog.d      sysctl.d           xdg
+credstore.encrypted     fwupd                 ldap             mke2fs.conf     passwd-              screenrc       sysstat            xml
+cron.d                  gai.conf              ld.so.cache      ModemManager    perl                 security       systemd            zsh_command_not_found
+cron.daily              gnutls                ld.so.conf       modprobe.d      pki                  selinux        terminfo
+cron.hourly             groff                 ld.so.conf.d     modules         plymouth             sensors3.conf  thermald
+cron.monthly            group                 legal            modules-load.d  pm                   sensors.d      timezone
+crontab                 group-                libaudit.conf    mtab            polkit-1             services       tmpfiles.d
+cron.weekly             grub.d                libblockdev      multipath       pollinate            sgml           ubuntu-advantage
+cron.yearly             gshadow               libibverbs.d     multipath.conf  profile              shadow         ucf.conf
+sykim@myserver01:~$ ls /usr
+bin  games  include  lib  lib64  libexec  local  sbin  share  src
+sykim@myserver01:~$ ls /boot
+config-6.8.0-44-generic  initrd.img                   initrd.img.old  System.map-6.8.0-44-generic  vmlinuz-6.8.0-44-generic
+grub                     initrd.img-6.8.0-44-generic  lost+found      vmlinuz                      vmlinuz.old
